@@ -1,0 +1,141 @@
+/* ---------- Global ---------- */
+body {
+font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+color: #212529;
+}
+
+
+/* ---------- Navbar ---------- */
+.navbar {
+background: linear-gradient(90deg, #1d3557, #457b9d);
+}
+
+
+.navbar-brand {
+font-weight: 700;
+font-size: 1.4rem;
+letter-spacing: 0.5px;
+color: #f8f9fa
+}
+
+
+.nav-link {
+font-size: 1rem;
+margin-left: 1rem;
+color: #f8f9fa;
+}
+
+
+.nav-link:hover {
+text-decoration: underline;
+}
+
+/* ---------- Hero Carousel ---------- */
+.hero-img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+/* ---------- About Page ---------- */
+.about-hero {
+background: linear-gradient(
+rgba(29, 53, 87, 0.85),
+rgba(69, 123, 157, 0.85)
+);
+padding: 4rem 1rem;
+color: white;
+}
+
+
+.about-title {
+font-size: 2.5rem;
+font-weight: 700;
+margin-bottom: 0.5rem;
+}
+
+
+.about-subtitle {
+font-size: 1.15rem;
+color: #e9ecef;
+max-width: 600px;
+margin: 0 auto;
+}
+
+
+.about-content p {
+font-size: 1.1rem;
+color: #495057;
+line-height: 1.7;
+margin-bottom: 1.5rem;
+}
+
+
+/* ---------- Contact Page ---------- */
+.contact-hero {
+background: linear-gradient(
+rgba(29, 53, 87, 0.85),
+rgba(69, 123, 157, 0.85)
+);
+padding: 4rem 1rem;
+color: white;
+}
+
+.contact-title {
+font-size: 2.5rem;
+font-weight: 700;
+margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+font-size: 1.15rem;
+color: #e9ecef;
+max-width: 600px;
+margin: 0 auto;
+}
+
+/* Contact card */
+.contact-card {
+background-color: #ffffff;
+padding: 2rem;
+border-radius: 12px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+text-align: center;
+}
+
+.contact-card li {
+font-size: 1.05rem;
+margin-bottom: 1rem;
+}
+
+.contact-card a {
+color: #1d3557;
+text-decoration: none;
+font-weight: 500;
+}
+
+.contact-card a:hover {
+text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer {
+text-align: center;
+padding: 1.5rem;
+background-color: #f8f9fa;
+font-size: 0.9rem;
+}
